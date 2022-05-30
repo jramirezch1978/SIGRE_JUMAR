@@ -1,0 +1,16 @@
+create global temporary table tt_liq_rpt_asiento (
+  fec_liquidacion       date, 
+  nro_liquidacion       char(10), 
+  cod_trabajador        char(8), 
+  nombres               varchar2(60), 
+  item                  number(3),
+  cuenta                char(10), 
+  flag_debhab           char(1), 
+  cencos                char(10), 
+  cod_relacion          char(8), 
+  nom_cod_relacion      varchar2(60),
+  tipo_doc              char(4), 
+  nro_doc               char(10), 
+  glosa                 varchar2(60), 
+  imp_debe              number(13,2), 
+  imp_haber             number(13,2) ) ;

@@ -1,0 +1,18 @@
+create global temporary table tt_utl_rpt_det_utilidades (
+  origen                char(2),
+  desc_origen           varchar2(50),
+  tipo_trabaj           char(3),
+  desc_tipo_trabaj      varchar2(30),
+  periodo               number(5),
+  cod_seccion           char(3),
+  desc_desccion         varchar2(30),
+  cod_relacion          char(8),
+  nombres               varchar2(50),
+  remuner_anual         number(13,2),
+  imp_remuner_anual     number(13,2),
+  dias_anual            number(13,2),
+  imp_dias_anual        number(13,2),
+  imp_utilidades        number(13,2),
+  adelantos             number(13,2),
+  reten_judicial        number(13,2),
+  imp_utl_netas         number(13,2) ) ;

@@ -1,0 +1,15 @@
+create global temporary table tt_rpt_gan_descto_fijos (
+activo_cesado           char(1),
+estable_contratado      char(1),
+seccion                 char(3),
+codigo                  char(8),
+nombres                 varchar2(60),
+fecha_nacimiento        date,
+fecha_ingreso           date,
+fecha_cese              date,
+codigo_afp              char(2),
+categ_salarial          char(2),
+cencos                  char(10),
+concepto                char(4),
+desc_concepto           varchar2(60),
+importe                 number(13,2) ) ;

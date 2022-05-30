@@ -1,0 +1,29 @@
+-- Drop table
+drop table TT_UTL_RPT_BOL_UTILIDADES cascade constraints;
+-- Create table
+create global temporary table TT_UTL_RPT_BOL_UTILIDADES
+(
+  direccion          VARCHAR2(30),
+  ruc                CHAR(11),
+  periodo            NUMBER(4),
+  cod_relacion       CHAR(8),
+  nombres            CHAR(50),
+  renta_neta         NUMBER(13,2),
+  porc_distribucion  NUMBER(5,2),
+  monto_distribuir   NUMBER(13,2),
+  dias_ano           NUMBER(13,2),
+  dias_ano_trabaj    NUMBER(13,2),
+  remuner_ano        NUMBER(13,2),
+  remuner_ano_trabaj NUMBER(13,2),
+  imp_util_dias      NUMBER(13,2),
+  imp_utl_remuner    NUMBER(13,2),
+  total_utilidades   NUMBER(13,2),
+  adelantos          NUMBER(13,2),
+  otros_adelantos    NUMBER(13,2),
+  reten_judicial     NUMBER(13,2),
+  neto_cobrado       NUMBER(13,2),
+  ano_entrega        NUMBER(4),
+  fecha_pago         DATE,
+  reten_5categ       NUMBER(13,2)
+)
+on commit preserve rows;

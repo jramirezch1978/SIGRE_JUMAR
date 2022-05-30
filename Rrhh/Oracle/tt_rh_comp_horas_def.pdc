@@ -1,0 +1,15 @@
+-- Drop table
+drop table TT_RH_COMP_HORAS_DEF cascade constraints;
+-- Create table
+create global temporary table TT_RH_COMP_HORAS_DEF
+(
+  COD_TRABAJADOR    CHAR(8),
+  FECHA             DATE,
+  HORA_NORMAL       NUMBER(15,2),
+  HORA_SOBRETIEMPO  NUMBER(15,2),
+  HORA_INASISTENCIA NUMBER(15,2),
+  TIPO_DIA          CHAR(1),
+  TIPO_ASIST        CHAR(1),
+  CONCEP            CHAR(4)
+)
+on commit preserve rows;

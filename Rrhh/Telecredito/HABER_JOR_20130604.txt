@@ -1,0 +1,152 @@
+100015120130604XC00011931712071046       00000000020183.32PAGO HABERES                            003820613408796
+2A47026228748037      122277748       ACEVEDO BENDEZU PELAGIA MAFILDA                                            PAGO HABERES                            PAGO HABERES        000100000000000142.20S
+2A47024389591002      180033696       AGUIRRE MARTINEZ SONIA  VICENTA                                            PAGO HABERES                            PAGO HABERES        000100000000000142.28S
+2A47026261551072      160902059       ALIAGA MAGALLANES FRANCIS                                                  PAGO HABERES                            PAGO HABERES        000100000000000080.52S
+2A47025743763053      122285759       ALMEYDA DIAZ MARIA ADALBERTA                                               PAGO HABERES                            PAGO HABERES        000100000000000093.18S
+2A47025612972041      146371695       ALVAREZ CARRIZALES LUIS  MIGUEL                                            PAGO HABERES                            PAGO HABERES        000100000000000126.43S
+2A47025569859092      141585015       ANICAMA CORTEZ JESUS  OMAR                                                 PAGO HABERES                            PAGO HABERES        000100000000000137.92S
+2A47025347373059      148174686       APOLAYA CASTRO LUIS ANGEL                                                  PAGO HABERES                            PAGO HABERES        000100000000000219.63S
+2A47024277196072      122242048       ARANGO  LEGUA CESAR GUSTAVO                                                PAGO HABERES                            PAGO HABERES        000100000000000139.06S
+2A47025411380013      148147347       ARANGO VARGAS CESAR GUSTAVO                                                PAGO HABERES                            PAGO HABERES        000100000000000072.77S
+2A47026222288012      174203915       ARAOZ CERVERA EDWIS MOISES                                                 PAGO HABERES                            PAGO HABERES        000100000000000144.10S
+2A47025448444051      172359065       ARONES  DAVILA LUIS  ALBERTO                                               PAGO HABERES                            PAGO HABERES        000100000000000092.95S
+2A47024950801082      122251099       ARTEAGA MAVILA VICTOR  AUGUSTO                                             PAGO HABERES                            PAGO HABERES        000100000000000051.29S
+2A47025345718088      145827176       ATUNCAR MALDONADO FREDDY  ANGEL                                            PAGO HABERES                            PAGO HABERES        000100000000000150.00S
+2A47025842959051      145721362       AYBAR ARIAS CARLA ALEJANDRA                                                PAGO HABERES                            PAGO HABERES        000100000000000067.96S
+2A47024326694070      122305007       BARZOLA CALLE MONICA  GABRIELA                                             PAGO HABERES                            PAGO HABERES        000100000000000145.33S
+2A47024451070003      143853954       BELLIDO BELLEZA MIGUEL ANGEL                                               PAGO HABERES                            PAGO HABERES        000100000000000088.61S
+2A47024322306039      122297894       BENAVENTE PARICAHUA NANCY                                                  PAGO HABERES                            PAGO HABERES        000100000000000105.74S
+2A47025970772055      122287813       BENAVIDES TORRES ANDRES MARCELO                                            PAGO HABERES                            PAGO HABERES        000100000000000171.99S
+2A47025743015098      146325971       BERRIOS RIOS TEODORO WILFREDO                                              PAGO HABERES                            PAGO HABERES        000100000000000108.15S
+2A47025970629011      122296074       CAHUANA CORTEZ ALEJANDRINA NARCISA                                         PAGO HABERES                            PAGO HABERES        000100000000000139.81S
+2A47026299117017      147267432       CAMASCA JORGES RICARDO                                                     PAGO HABERES                            PAGO HABERES        000100000000000114.91S
+2A47025569887020      145690787       CAMPOS  LOPEZ ROBERT  ANGEL                                                PAGO HABERES                            PAGO HABERES        000100000000000121.76S
+2A47025742119093      145458108       CAMPOS PISCONTE PEDRO JOEL                                                 PAGO HABERES                            PAGO HABERES        000100000000000137.72S
+2A47018242519040      145071485       CANELO LUYO MIGUEL ANTONIO                                                 PAGO HABERES                            PAGO HABERES        000100000000000037.33S
+2A47026261627049      143013017       CARPIO DIAZ ANTHONY                                                        PAGO HABERES                            PAGO HABERES        000100000000000102.26S
+2A47023818721066      170305310       CARREÑO MUÑOZ LUIS FERNANDO                                                PAGO HABERES                            PAGO HABERES        000100000000000072.77S
+2A47025797100029      141608688       CASTILLA HUAMAN CARLOS SANTIAGO                                            PAGO HABERES                            PAGO HABERES        000100000000000141.86S
+2A47026261519040      144966528       CASTRO GUZMAN FIDEL                                                        PAGO HABERES                            PAGO HABERES        000100000000000120.44S
+2A47025569902036      147147770       CAUPER  PICOTA TEDY                                                        PAGO HABERES                            PAGO HABERES        000100000000000091.06S
+2A47025974634056      123569858       CERVERA GUADALUPE LADY JOSEFA                                              PAGO HABERES                            PAGO HABERES        000100000000000172.11S
+2A47024277205082      122294766       CHACALIAZA PEREZ LUZ  MARIA                                                PAGO HABERES                            PAGO HABERES        000100000000000219.35S
+2A47025742226001      142956449       CHALCO CCALLALLI LOURDES MILAGROS                                          PAGO HABERES                            PAGO HABERES        000100000000000097.78S
+2A47024389604016      145399244       CHAVEZ HERNANDEZ JULIA  SOLEDAD                                            PAGO HABERES                            PAGO HABERES        000100000000000167.42S
+2A47024277213090      145148494       CHUQUIHUACCHA RAMIREZ  JHON                                                PAGO HABERES                            PAGO HABERES        000100000000000080.55S
+2A47025515967056      122307517       CLEMENTE SARAVIA EDGAR LUIS                                                PAGO HABERES                            PAGO HABERES        000100000000000114.74S
+2A47025743076059      148408916       COLLANQUI ZAPANA SILVIA KATHERINE                                          PAGO HABERES                            PAGO HABERES        000100000000000080.89S
+2A47025408762068      144122232       COLLANTES HINOJOSA PATRICIA ANAMELBA                                       PAGO HABERES                            PAGO HABERES        000100000000000096.20S
+2A47025515906095      172072003       CORDOVA TASAYCO ALEXSANDER ENRIQUE                                         PAGO HABERES                            PAGO HABERES        000100000000000165.55S
+2A47025569350078      142159628       CUCHO ROJAS DANIEL  ALFREDO                                                PAGO HABERES                            PAGO HABERES        000100000000000127.11S
+2A47026261495015      144575025       DEL PINO LLAUCA MARIBEL DIANA                                              PAGO HABERES                            PAGO HABERES        000100000000000206.59S
+2A47025349050053      144691402       DELGADO MONDALGO JUAN CARLOS                                               PAGO HABERES                            PAGO HABERES        000100000000000130.40S
+2A47025327104086      145285765       DIAZ RENTEROS ALEJANDRO  ENRIQUE                                           PAGO HABERES                            PAGO HABERES        000100000000000131.11S
+2A47026299121021      173459530       ESPINOZA MEZA NELSON WALDIR                                                PAGO HABERES                            PAGO HABERES        000100000000000131.75S
+2A47025127277040      145059332       ESPIRITU GARCIA MANUEL                                                     PAGO HABERES                            PAGO HABERES        000100000000000146.68S
+2A47025742910092      144646610       FAJARDO HUAYLLA LUIGGI CARLEXIS                                            PAGO HABERES                            PAGO HABERES        000100000000000114.34S
+2A47024950713093      146914782       FAUSTINO GARCIA RENE                                                       PAGO HABERES                            PAGO HABERES        000100000000000093.28S
+2A47025127285048      122306944       FELIPA CHACALIAZA ADOLFO  NOEL                                             PAGO HABERES                            PAGO HABERES        000100000000000149.82S
+2A47026261531052      147151906       FERNANDEZ MAGALLANES CARLOS ALEXANDER                                      PAGO HABERES                            PAGO HABERES        000100000000000093.18S
+2A47025580974020      148239431       FLORES BRAVO BRAYAN  ANIBAL                                                PAGO HABERES                            PAGO HABERES        000100000000000047.43S
+2A47025569929063      170243760       FLORES MORENO MARJJIORI  PATRICIA                                          PAGO HABERES                            PAGO HABERES        000100000000000114.91S
+2A47025612994063      146692601       FLORES NAPA MAYRA  LORENA                                                  PAGO HABERES                            PAGO HABERES        000100000000000125.39S
+2A47025612988057      146141459       FLORES SAENZ JENNY  KARINA                                                 PAGO HABERES                            PAGO HABERES        000100000000000138.06S
+2A47026151928042      105212868       FLORES TELLO AUGUSTO LUIS                                                  PAGO HABERES                            PAGO HABERES        000100000000000161.75S
+2A47025050696086      142335287       GALLEGOS POZU YESENIA  MARIA                                               PAGO HABERES                            PAGO HABERES        000100000000000180.29S
+2A47025347395081      171350859       GODOY BOZA SILVIA                                                          PAGO HABERES                            PAGO HABERES        000100000000000164.39S
+2A47026030029012      142933291       GUERRA DIAZ HAROLD ALEXANDER                                               PAGO HABERES                            PAGO HABERES        000100000000000161.50S
+2A47025569819052      145490052       GUERREROS NAVEROS SAMY  LEE                                                PAGO HABERES                            PAGO HABERES        000100000000000124.34S
+2A47024862626016      145614518       GUEVARA REYES CYNTHIA  MELISA                                              PAGO HABERES                            PAGO HABERES        000100000000000117.71S
+2A47024326283055      122300972       GUILLEN RAMOS NANCY  CISEBEL                                               PAGO HABERES                            PAGO HABERES        000100000000000096.17S
+2A47025515960049      145213027       GUTIERREZ FERREYRA BRUZY ERISON                                            PAGO HABERES                            PAGO HABERES        000100000000000119.41S
+2A47025970883067      140371139       GUTIERREZ HEREDIA BERTUNE CRISTIAN                                         PAGO HABERES                            PAGO HABERES        000100000000000172.11S
+2A47025004006025      143635120       GUTIERREZ SOLANO ESTEBAN  GILBERTO                                         PAGO HABERES                            PAGO HABERES        000100000000000159.40S
+2A47026039184058      147413102       HERNANDEZ GALARZA JHONNY JORDAN                                            PAGO HABERES                            PAGO HABERES        000100000000000126.81S
+2A47025670124071      172300046       HERNANDEZ HERENCIA JORGE MANUEL                                            PAGO HABERES                            PAGO HABERES        000100000000000127.11S
+2A47024389611023      125584581       HERNANDEZ MARIN PEDRO ALEJANDRO                                            PAGO HABERES                            PAGO HABERES        000100000000000146.30S
+2A47025797106035      145007333       HUAMAN ARAMBURU JOEL MARTIN                                                PAGO HABERES                            PAGO HABERES        000100000000000148.36S
+2A47025515810098      170305315       HUAMAN FAJARDO ASTRID ISABEL                                               PAGO HABERES                            PAGO HABERES        000100000000000121.02S
+2A47025970788071      142981289       HUAROTO FALCON GIOMAR ANTONIO                                              PAGO HABERES                            PAGO HABERES        000100000000000107.84S
+2A47024533433098      141266337       HUAYUNGA SHUPINGAHUA JAIRO                                                 PAGO HABERES                            PAGO HABERES        000100000000000144.41S
+2A47026358431030      102897461       IMAN SERNAQUE JUAN IVAN                                                    PAGO HABERES                            PAGO HABERES        000100000000000057.37S
+2A47025382773017      122277841       JIMENEZ PEÑA ISAAC FELIPE                                                  PAGO HABERES                            PAGO HABERES        000100000000000085.25S
+2A47024452590038      143442829       JUAREZ PACHECO CARLOS AURELIO                                              PAGO HABERES                            PAGO HABERES        000100000000000168.77S
+2A47025427189081      145131893       LEON ADCO SABINA                                                           PAGO HABERES                            PAGO HABERES        000100000000000110.36S
+2A47025971028014      144371542       LEONA LOPEZ ABEL                                                           PAGO HABERES                            PAGO HABERES        000100000000000139.81S
+2A47025613034004      147331127       LISMA FRANCO ABEL  ROSARIO                                                 PAGO HABERES                            PAGO HABERES        000100000000000056.42S
+2A47024317674059      122248872       LLERENA SAAVEDRA VICENTE  RUFINO                                           PAGO HABERES                            PAGO HABERES        000100000000000177.87S
+2A47020456543027      122291224       LUYO URIBE JOSE ANTONIO                                                    PAGO HABERES                            PAGO HABERES        000100000000000096.42S
+2A47024388804008      147808467       MAMANI VELASQUEZ DENNIS                                                    PAGO HABERES                            PAGO HABERES        000100000000000144.65S
+2A47025408779085      145214976       MARTINEZ  MALPARTIDA RICARDO PEDRO                                         PAGO HABERES                            PAGO HABERES        000100000000000213.48S
+2A47025347303089      147850155       MARTINEZ YAURI SILVIO  JUNIOR                                              PAGO HABERES                            PAGO HABERES        000100000000000044.37S
+2A47025742274049      122305336       MATTA ARGUEDA RICHARD NILTON                                               PAGO HABERES                            PAGO HABERES        000100000000000139.96S
+2A47022707493013      141943872       MAURTUA PISCONTE CARLOS GUSTAVO                                            PAGO HABERES                            PAGO HABERES        000100000000000157.65S
+2A47025895579002      109432554       MAYURI OJINES DORIS MARLENI                                                PAGO HABERES                            PAGO HABERES        000100000000000150.63S
+2A47025281567089      172020664       MISAJEL ORTEGA ALEXIS  JAIR                                                PAGO HABERES                            PAGO HABERES        000100000000000132.02S
+2A47025003956074      140703537       MONDALGO REYMUNDO MARIA ELIZABETH                                          PAGO HABERES                            PAGO HABERES        000100000000000109.08S
+2A47025569959093      140516131       MOQUILLAZA FRANCO JESSICA  JOHANNA                                         PAGO HABERES                            PAGO HABERES        000100000000000039.35S
+2A47024277186062      122298131       MORAN  VASQUEZ ALEJANDRO  HUMBERTO                                         PAGO HABERES                            PAGO HABERES        000100000000000188.94S
+2A47025895561084      171791751       MORAN DE LA CRUZ LISETH YERALDINE                                          PAGO HABERES                            PAGO HABERES        000100000000000136.23S
+2A47026030053036      140949437       MUNAYCO ORTEGA JOSE ALBERTO                                                PAGO HABERES                            PAGO HABERES        000100000000000093.51S
+2A47025970919004      105203012       MURAYARI CURICO JOSE                                                       PAGO HABERES                            PAGO HABERES        000100000000000088.36S
+2A47024389607019      140005737       MUÑOZ GARCIA JULIO WILLY                                                   PAGO HABERES                            PAGO HABERES        000100000000000144.74S
+2A47025127293056      144604977       PALACIOS MARMOLEJO MILAGROS DEL PILAR                                      PAGO HABERES                            PAGO HABERES        000100000000000206.59S
+2A47024855593011      140416912       PALACIOS SILVA MARIA DEL PILAR   NATIVIDAD                                 PAGO HABERES                            PAGO HABERES        000100000000000112.89S
+2A47025970908093      147366795       PALOMINO COTILLO OSCAR SEBASTIAN                                           PAGO HABERES                            PAGO HABERES        000100000000000127.11S
+2A47025570665007      110590947       PANIORA HUAMAN NATIVIDAD                                                   PAGO HABERES                            PAGO HABERES        000100000000000160.00S
+2A47025281652075      122301172       PAUCAR DE LA CRUZ WALTER                                                   PAGO HABERES                            PAGO HABERES        000100000000000172.59S
+2A47025742164038      122258851       PECHO GALINDO ESTHER ROSA                                                  PAGO HABERES                            PAGO HABERES        000100000000000139.87S
+2A47026030047030      122299931       PECHO GALINDO WALTER FERNANDO                                              PAGO HABERES                            PAGO HABERES        000100000000000127.25S
+2A47025613066036      145442104       PECHO GALVEZ PATRICIA  ISABEL                                              PAGO HABERES                            PAGO HABERES        000100000000000122.99S
+2A47025457144039      142749669       PEREZ VILCA ANA  MARIA                                                     PAGO HABERES                            PAGO HABERES        000100000000000139.96S
+2A47025578266084      145602675       PEÑA FERNANDEZ ANDY RENZO                                                  PAGO HABERES                            PAGO HABERES        000100000000000119.26S
+2A47024277089064      110823885       PINEDA  MENDOZA AMPARO  ROSARIO                                            PAGO HABERES                            PAGO HABERES        000100000000000133.40S
+2A47025409532046      170197014       PISCONTE  OCHOA  CYNTHIA  BEATRIZ                                          PAGO HABERES                            PAGO HABERES        000100000000000182.20S
+2A47025970948033      122313835       PISCONTE PEÑA JUAN ARMANDO                                                 PAGO HABERES                            PAGO HABERES        000100000000000162.69S
+2A47025570673015      147899105       QUISPE  QUISPE LUIS  ANGEL                                                 PAGO HABERES                            PAGO HABERES        000100000000000081.96S
+2A47025796883009      140952496       QUISPE CORDOVA JANET ELIZABETH                                             PAGO HABERES                            PAGO HABERES        000100000000000150.37S
+2A47025970764047      143429601       QUISPE GODOY ANSELMO                                                       PAGO HABERES                            PAGO HABERES        000100000000000162.62S
+2A47026151284091      122292956       QUISPE HERNANDEZ LUIS MARTIN                                               PAGO HABERES                            PAGO HABERES        000100000000000162.69S
+2A47026261544065      140695663       QUISPE MARTINEZ LUISA AURORA                                               PAGO HABERES                            PAGO HABERES        000100000000000141.59S
+2A47025970591072      180026653       QUISPE MEDINA JUAN CARLOS                                                  PAGO HABERES                            PAGO HABERES        000100000000000171.93S
+2A47025127306070      146294721       QUISPE PACO JOSÉ  SANTOS                                                   PAGO HABERES                            PAGO HABERES        000100000000000095.34S
+2A47025971009095      122292839       QUISPE QUISPE VICTOR JOSE                                                  PAGO HABERES                            PAGO HABERES        000100000000000127.11S
+2A47025569839072      170192461       RAMIREZ GARCIA DORIS  CONSUELO                                             PAGO HABERES                            PAGO HABERES        000100000000000168.03S
+2A47024322160091      122265350       RAMOS CABEZUDO NILA  RUTH                                                  PAGO HABERES                            PAGO HABERES        000100000000000143.54S
+2A47025003978096      122308269       RIVEROS HUARCAYA SANTOS                                                    PAGO HABERES                            PAGO HABERES        000100000000000191.61S
+2A47025281679002      122288569       ROBLES CANDUELAS DE CASTILLO BETTY ESTHER                                  PAGO HABERES                            PAGO HABERES        000100000000000160.00S
+2A47025368547047      147187628       RODRIGUEZ ESTEBAN JUNIOR                                                   PAGO HABERES                            PAGO HABERES        000100000000000172.59S
+2A47024862623013      147058157       RUEDA REYES EDER BELTRAN                                                   PAGO HABERES                            PAGO HABERES        000100000000000116.97S
+2A47024862625015      147052057       RUEDA REYES EDGAR MIGUEL                                                   PAGO HABERES                            PAGO HABERES        000100000000000129.62S
+2A47025281592014      145238919       RUEDA REYES HAMILTON  MERLY                                                PAGO HABERES                            PAGO HABERES        000100000000000149.48S
+2A47025448455062      143832411       RUEDA REYES YUNNER  ALEX                                                   PAGO HABERES                            PAGO HABERES        000100000000000188.80S
+2A47024769827079      122297130       SALAZAR SERNA MARIANELA ODALIA                                             PAGO HABERES                            PAGO HABERES        000100000000000092.62S
+2A47024326157028      171993657       SANCHEZ GUZMAN JERSON JESUS                                                PAGO HABERES                            PAGO HABERES        000100000000000065.09S
+2A47026261574095      122301187       SARAVIA SARAVIA DAVID                                                      PAGO HABERES                            PAGO HABERES        000100000000000139.96S
+2A47025570584025      171817293       SIFUENTES SAMAN MILAGROS  LISBETH                                          PAGO HABERES                            PAGO HABERES        000100000000000173.19S
+2A47025232688016      145214543       SIGUAS AGUILAR GISELLA  LILIANA                                            PAGO HABERES                            PAGO HABERES        000100000000000102.50S
+2A47025796893019      147600103       SILVERA GUZMAN SARA ROSARIO                                                PAGO HABERES                            PAGO HABERES        000100000000000044.00S
+2A47026228757046      122241173       SOTO ROJAS GABRIELA NARCISO                                                PAGO HABERES                            PAGO HABERES        000100000000000127.11S
+2A47025742907089      122277045       SUAREZ BAUTISTA DE PADILLA MARIA JESUS                                     PAGO HABERES                            PAGO HABERES        000100000000000114.64S
+2A47026222249073      170202744       TAPIAZA LLERENA YOEL AUGUSTO                                               PAGO HABERES                            PAGO HABERES        000100000000000094.10S
+2A47026151923037      122289890       TATAJE PACHECO RUBEN JESUS                                                 PAGO HABERES                            PAGO HABERES        000100000000000171.00S
+2A47025515780067      122270520       TIPULA BARRETO LILIANA YOVANA ROSA                                         PAGO HABERES                            PAGO HABERES        000100000000000219.68S
+2A47026358439038      145780157       TITO PACHAS LEO NELA                                                       PAGO HABERES                            PAGO HABERES        000100000000000210.63S
+2A47024405813089      122273654       TOLEDO GIRALDO ENRRIQUE  MANUEL                                            PAGO HABERES                            PAGO HABERES        000100000000000215.75S
+2A47025570593034      142230832       TORRES ESPINO CRISTIAN  PEDRO                                              PAGO HABERES                            PAGO HABERES        000100000000000179.57S
+2A47024477225022      142826078       TORRES ESPINO JOSE MIGUEL                                                  PAGO HABERES                            PAGO HABERES        000100000000000264.98S
+2A47025347334020      146498267       TORRES ESPINO JUAN  CARLOS                                                 PAGO HABERES                            PAGO HABERES        000100000000000239.47S
+2A47026261563084      142045600       TORRES ESPINO PERCI OSWALDO                                                PAGO HABERES                            PAGO HABERES        000100000000000249.57S
+2A47026030059042      122308549       UCHUYA VDA. DE YARASSI MARIA ESTELA                                        PAGO HABERES                            PAGO HABERES        000100000000000127.11S
+2A47025570611053      145028937       URIBE SAMAN YESSICA  HERMINIA                                              PAGO HABERES                            PAGO HABERES        000100000000000176.11S
+2A47024323178019      144096901       USCATA SACCATOMA NOEMI  ISABEL                                             PAGO HABERES                            PAGO HABERES        000100000000000135.36S
+2A47021126620073      147628260       VALENZUELA LAURENTE KERMILLY MARIA                                         PAGO HABERES                            PAGO HABERES        000100000000000168.25S
+2A47025347683072      180029864       VARGAS TOLEDO CARMEN EUGENIA                                               PAGO HABERES                            PAGO HABERES        000100000000000072.95S
+2A47024855380096      122264924       VASQUEZ SOLIS DE PUMARICRA YSABEL                                          PAGO HABERES                            PAGO HABERES        000100000000000132.78S
+2A47025815842060      146735195       VASQUEZ ZAVALETA FIDEL                                                     PAGO HABERES                            PAGO HABERES        000100000000000092.95S
+2A47025004032051      140733931       VERME YAURICASA LUIS  ALBERTO                                              PAGO HABERES                            PAGO HABERES        000100000000000130.40S
+2A47024277181057      121823874       YATACO POMIANO MARTHA  MARGARITA                                           PAGO HABERES                            PAGO HABERES        000100000000000093.76S
+2A47025897630074      110171802       ZAMORA LAGOS VICTOR                                                        PAGO HABERES                            PAGO HABERES        000100000000000139.87S
+2A47025282429060      146463271       ZAPATA SOTO MARYLIN  YERALDINE                                             PAGO HABERES                            PAGO HABERES        000100000000000131.73S
+2A47026261648070      142663006       ZEA XXX MANUEL                                                             PAGO HABERES                            PAGO HABERES        000100000000000126.81S
+2A47025003945063      148140110       ZEVALLOS LOAYZA ROSALIA                                                    PAGO HABERES                            PAGO HABERES        000100000000000171.50S

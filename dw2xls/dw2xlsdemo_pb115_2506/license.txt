@@ -1,0 +1,25 @@
+LICENSE AGREEMENT
+
+WARNING:
+The software is protected by copyright law and international copyright treaty.
+License Agreement is a legal agreement between you (either an individual or a single entity) and The Desta Ltd. for the DW2XLS Library later refered to as "SOFTWARE PRODUCT". By installing, copying, or otherwise using the SOFTWARE PRODUCT, you agree to be bound by the terms of this Agreement. If you do not agree to the terms of this Agreement, you are not authorized to use the SOFTWARE PRODUCT.
+
+GRANT OF LICENSE:
+After you have paid the applicable software license fee, you are granted to use one copy of the SOFTWARE PRODUCT per developer. The SOFTWARE PRODUCT is in "use" on a computer when it is loaded into temporary memory (i.e. RAM) or installed into permanent memory (e.g. hard disk, or other storage device) of that computer.
+
+RESTRICTIONS:
+You may not rent or lease the SOFTWARE PRODUCT, but you may transfer the SOFTWARE PRODUCT and accompanying written materials on a permanent basis provided you retain no copies and the recipient agrees to the terms of this Agreement.
+Without the express prior written consent of the author, you may not distribute any of the author's commercial source code by any means whatsoever.
+
+DISTRIBUTION REQUIREMENTS
+You have a royalty-free right to distribute SOFTWARE PRODUCT if:
+
+1. You distribute the compiled module only in conjunction with the executable files that make use of them as a part of your software product;
+2. You do not make public the source code of this library;
+3. You redistribute only the compiled module without source code.
+
+WARRANTY:
+There is absolutely no warranty of any kind whatsoever with any of this SOFTWARE PRODUCT. The SOFTWARE PRODUCT is provided to you "AS-IS", and all risks and losses associated with its use are assumed by you. In no event shall the author of the library be held accountable for any damages or losses that may occur from use or misuse of the SOFTWARE PRODUCT.
+
+SUPPORT:
+Support is provided via email to dw2xls_support@desta.com.ua.

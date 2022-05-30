@@ -1,0 +1,18 @@
+create global temporary table tt_utl_rpt_adelantos (
+  origen                char(2),
+  desc_origen           varchar2(50),
+  tipo_trabaj           char(3),
+  desc_tipo_trabaj      varchar2(30),
+  periodo               number(4),
+  fec_desde             date,
+  fec_hasta             date,
+  cod_seccion           char(3),
+  desc_desccion         varchar2(30),
+  cod_relacion          char(8),
+  nombres               varchar2(60),
+  fec_proceso           date,
+  concepto              char(4),
+  desc_concepto         varchar2(60),
+  imp_adelanto          number(13,2),
+  imp_retencion         number(13,2),
+  imp_total             number(13,2) ) ;

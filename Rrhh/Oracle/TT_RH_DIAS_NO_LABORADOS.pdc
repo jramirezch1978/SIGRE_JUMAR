@@ -1,0 +1,7 @@
+-- Create table
+create global temporary table TT_RH_DIAS_NO_LABORADOS
+(
+  cod_trabajador CHAR(8),
+  fecha          DATE
+)
+on commit preserve rows;

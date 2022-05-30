@@ -1,0 +1,92 @@
+rem Differences between AGRILAP@ORCL and AGRILAP@ORCL, created on 23/05/2010
+rem Press Apply button, or run in Command Window or SQL*Plus connected as AGRILAP@ORCL
+
+-----------------------------------------
+--  New table contrato_rrhh_modalidad  --
+-----------------------------------------
+-- Create table
+create table CONTRATO_RRHH_MODALIDAD
+(
+  CONTRATO_MODALIDAD CHAR(2) not null,
+  DESC_MODALIDAD     VARCHAR2(100) not null,
+  FLAG_ESTADO        CHAR(1) default '1' not null
+)
+tablespace AGRILAP
+  pctfree 10
+  initrans 1
+  maxtrans 255
+  storage
+  (
+    initial 64K
+    minextents 1
+    maxextents unlimited
+  );
+-- Add comments to the table 
+comment on table CONTRATO_RRHH_MODALIDAD
+  is 'CONTRATO_RRHH_MODALIDAD';
+-- Add comments to the columns 
+comment on column CONTRATO_RRHH_MODALIDAD.CONTRATO_MODALIDAD
+  is 'CONTRATO_MODALIDAD';
+comment on column CONTRATO_RRHH_MODALIDAD.DESC_MODALIDAD
+  is 'DESC_MODALIDAD';
+comment on column CONTRATO_RRHH_MODALIDAD.FLAG_ESTADO
+  is 'FLAG_ESTADO';
+-- Create/Recreate primary, unique and foreign key constraints 
+alter table CONTRATO_RRHH_MODALIDAD
+  add constraint PK_CONTRATO_RRHH_MODALIDAD primary key (CONTRATO_MODALIDAD)
+  using index 
+  tablespace AGRILAP
+  pctfree 10
+  initrans 2
+  maxtrans 255
+  storage
+  (
+    initial 64K
+    minextents 1
+    maxextents unlimited
+  );
+
+-----------------------------------
+--  Changed table contrato_rrhh  --
+-----------------------------------
+-- Add/modify columns 
+alter table CONTRATO_RRHH add CONTRATO_MODALIDAD CHAR(2);
+alter table CONTRATO_RRHH add TIEMPO_PRUEBA NUMBER(4);
+alter table CONTRATO_RRHH add FLAG_DIA_MES CHAR(1) DEFAULT 'M' NOT NULL;
+alter table CONTRATO_RRHH add FEC_REGISTRO DATE DEFAULT SYSDATE NOT NULL;
+alter table CONTRATO_RRHH add PERIODO VARCHAR2(7) NOT NULL;
+
+-- Add comments to the columns 
+comment on column CONTRATO_RRHH.CONTRATO_MODALIDAD
+  is 'CONTRATO_MODALIDAD';
+comment on column CONTRATO_RRHH.TIEMPO_PRUEBA
+  is 'TIEMPO_PRUEBA';
+-- Create/Recreate primary, unique and foreign key constraints 
+alter table CONTRATO_RRHH
+  add constraint FK_CONTRATO_REF_17718_CONTRATO foreign key (CONTRATO_MODALIDAD)
+  references CONTRATO_RRHH_MODALIDAD (CONTRATO_MODALIDAD);
+--------------------------------------------------
+--  Changed table rrhh_periodos_laborales_rtps  --
+--------------------------------------------------
+-- Drop columns 
+alter table RRHH_PERIODOS_LABORALES_RTPS drop column NRO_LIQUIDACION;
+alter table RRHH_PERIODOS_LABORALES_RTPS drop column FLAG_LIQUIDACION_PAGO;
+alter table RRHH_PERIODOS_LABORALES_RTPS add NRO_CONTRATO CHAR(10);
+alter table RRHH_PERIODOS_LABORALES_RTPS add FLAG_LIQUIDACION CHAR(1) default '0' not null;
+alter table RRHH_PERIODOS_LABORALES_RTPS add TIPO_DOC_LIQUIDACION CHAR(4);
+alter table RRHH_PERIODOS_LABORALES_RTPS add NRO_DOC_LIQUIDACION CHAR(10);
+-- Add comments to the columns 
+comment on column RRHH_PERIODOS_LABORALES_RTPS.NRO_CONTRATO
+  is 'nro contrato';
+comment on column RRHH_PERIODOS_LABORALES_RTPS.FLAG_LIQUIDACION
+  is 'flag_liquidacion';
+comment on column RRHH_PERIODOS_LABORALES_RTPS.FEC_LIQUIDACION
+  is 'fec_liquidacion';
+comment on column RRHH_PERIODOS_LABORALES_RTPS.TIPO_DOC_LIQUIDACION
+  is 'tipo_doc_liquidacion';
+comment on column RRHH_PERIODOS_LABORALES_RTPS.NRO_DOC_LIQUIDACION
+  is 'nro_doc_liquidacion';
+-- Create/Recreate primary, unique and foreign key constraints 
+alter table RRHH_PERIODOS_LABORALES_RTPS
+  add constraint FK_RRHH_PER_REF_17718_CONTRATO foreign key (NRO_CONTRATO)
+  references CONTRATO_RRHH (NRO_CONTRATO);

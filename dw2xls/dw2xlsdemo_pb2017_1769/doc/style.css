@@ -1,0 +1,20 @@
+.head1 { font-family:verdana,arial,helvetica; font-weight:bold; font-size:110%; }
+.head2 { font-family:verdana,arial,helvetica; font-weight:bold; font-size:70%; }
+.txt   { font-family:verdana,arial,helvetica; font-size:70%; }
+.grey_box { background-color: #eeeeee; }
+.footer_text  { font-family:verdana,arial,helvetica; font-size:80%; }
+.doc_header   { font-family:verdana,arial,helvetica; font-size:110%; font-weight:bold; }
+.line         { height:1; background-color:#999999; }
+.empty_line   { height:11; }
+.hidden_link  { text-decoration:none; }
+
+body { margin:25px; font-family:verdana,arial,helvetica; font-size:medium; background-color:white; }
+pre  { margin-left:40px; background-color:#eeeeee; }
+.path_table  { font-size:70%; height:24; width:100%; }
+.path_link   { font-family:verdana,arial,helvetica; text-decoration:none; }
+.padding_txt { margin-left:40px; }
+.light_line  { height:1; background-color:#cccccc; }
+
+
+.msa {font-family:verdana,arial,helvetica; font-size: 70%; padding: 2pt 10pt; vertical-align: top}
+.methodlist {font-family:verdana,arial,helvetica; font-size: 70%; margin-left: 30pt;}

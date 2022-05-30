@@ -1,0 +1,21 @@
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=10.200.1.67)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=bcn1)(CID=(PROGRAM=C:\Archivos de programa\Sybase\PowerBuilder 10.5\PB105.EXE)(HOST=JRAMIREZ_LA)(USER=jramirez))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.3.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.3.0 - Production
+  Time: 21-FEB-2008 19:50:13
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 0
+    ns main err code: 12560
+    TNS-12560: TNS:protocol adapter error
+    ns secondary err code: 0
+    nt main err code: 538
+    TNS-00538: Message 538 not found;  product=NETWORK; facility=TNS
+
+    nt secondary err code: 65
+    nt OS err code: 0

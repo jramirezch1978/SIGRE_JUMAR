@@ -1,0 +1,69 @@
+-- Drop table
+drop table UTL_EXT_HIST cascade constraints;
+-- Create table
+create table UTL_EXT_HIST
+(
+  periodo             NUMBER(4) not null,
+  item                NUMBER(1) not null,
+  cod_relacion        CHAR(8) not null,
+  remun_anual         NUMBER(13,2) default 0,
+  imp_utl_remun_anual NUMBER(13,2) default 0,
+  dias_efectivos      NUMBER(5,2),
+  imp_ult_dias_efect  NUMBER(13,2) default 0,
+  adelantos           NUMBER(13,2) default 0,
+  reten_jud           NUMBER(13,2) default 0,
+  flag_replicacion    CHAR(1) default '1',
+  dias_total          NUMBER(3) default 0,
+  dias_domingo        NUMBER(3) default 0,
+  dias_feriado        NUMBER(3) default 0,
+  dias_inasist        NUMBER(3) default 0
+)
+tablespace fisholg
+  pctfree 10
+  initrans 1
+  maxtrans 255
+  storage
+  (
+    initial 128K
+    minextents 1
+    maxextents unlimited
+  );
+-- Add comments to the table 
+comment on table UTL_EXT_HIST
+  is 'Utl Ext Hist';
+-- Add comments to the columns 
+comment on column UTL_EXT_HIST.periodo
+  is 'periodo';
+comment on column UTL_EXT_HIST.cod_relacion
+  is 'cod relacion';
+comment on column UTL_EXT_HIST.remun_anual
+  is 'remun anual';
+comment on column UTL_EXT_HIST.imp_utl_remun_anual
+  is 'imp utl remun anual';
+comment on column UTL_EXT_HIST.dias_efectivos
+  is 'dias efectivos';
+comment on column UTL_EXT_HIST.imp_ult_dias_efect
+  is 'imp ult dias efect';
+comment on column UTL_EXT_HIST.adelantos
+  is 'adelantos';
+comment on column UTL_EXT_HIST.reten_jud
+  is 'reten jud';
+comment on column UTL_EXT_HIST.flag_replicacion
+  is 'flag_replicacion';
+-- Create/Recreate primary, unique and foreign key constraints 
+alter table UTL_EXT_HIST
+  add constraint PK_UTL_EXT_HIST primary key (PERIODO, ITEM, COD_RELACION)
+  using index 
+  tablespace fisholg
+  pctfree 10
+  initrans 2
+  maxtrans 255
+  storage
+  (
+    initial 128K
+    minextents 1
+    maxextents unlimited
+  );
+alter table UTL_EXT_HIST
+  add constraint FK_UTL_EXT__REF_10054_PROVEEDO foreign key (COD_RELACION)
+  references PROVEEDOR (PROVEEDOR);

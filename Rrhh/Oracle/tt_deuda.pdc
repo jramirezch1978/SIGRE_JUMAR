@@ -1,0 +1,6 @@
+-- Create table 
+create table 
+(
+  COD_TRABAJADOR char(8),
+  NOMBRE varchar2(100)
+);

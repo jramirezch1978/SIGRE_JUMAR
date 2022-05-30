@@ -1,0 +1,9 @@
+Save Format v3.0(19990112)
+@begin Unchecked
+@end;
+@begin Targets
+ 0 "dw2xls.pbt";
+ 1 "..\\..\\\xbb\xc6\xb9\xfa\xb3\xeapbd\xb0\xe6\\9.0\\dw2xls.pbt";
+@end;
+DefaultTarget "..\\..\\\xbb\xc6\xb9\xfa\xb3\xeapbd\xb0\xe6\\9.0\\dw2xls.pbt";
+DefaultRemoteTarget "..\\..\\\xbb\xc6\xb9\xfa\xb3\xeapbd\xb0\xe6\\9.0\\dw2xls.pbt";

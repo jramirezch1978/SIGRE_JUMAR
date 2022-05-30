@@ -1,0 +1,12 @@
+-- Drop table
+drop table TT_RH_COMP_HORA cascade constraints;
+-- Create table
+create global temporary table TT_RH_COMP_HORA
+(
+  FECHA   DATE,
+  DIA     VARCHAR2(10),
+  SABADO  CHAR(1),
+  DOMINGO CHAR(1),
+  FERIADO CHAR(1)
+)
+on commit preserve rows;

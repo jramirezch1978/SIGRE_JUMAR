@@ -1,0 +1,16 @@
+-- Create table
+create table TT_RRHH_VACACIONES_TRAB
+(
+  cod_trabajador     CHAR(8),
+  concep             CHAR(4),
+  dias_trabajados    NUMBER(14,4),
+  dias_vacaciones    NUMBER(14,4),
+  vacaciones_gozadas NUMBER(14,4),
+  flag_fijo_variable CHAR(1),
+  importe            NUMBER(14,4)
+)
+tablespace ARCOPA
+  pctfree 10
+  initrans 1
+  maxtrans 255
+nologging;

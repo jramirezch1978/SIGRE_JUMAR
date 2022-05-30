@@ -1,0 +1,16 @@
+create global temporary table tt_rrhh_cta_cte (
+ COD_TRABAJADOR  CHAR(8)       ,                         
+ NOMBRES         VARCHAR2(100) ,                        
+ COD_SIT_PREST   CHAR(1)       ,                        
+ TIPO_DOC        CHAR(4)       ,                         
+ NRO_DOC         CHAR(10)      ,                         
+ FEC_PRESTAMO    DATE          ,                         
+ FEC_DESCTO      DATE          ,                         
+ NRO_CUOTAS      NUMBER(2)     ,                         
+ MONTO_ORIGINAL  NUMBER(13,2)  ,                         
+ SALDO_PRESTAMO  NUMBER(13,2)  ,                         
+ IMP_DSCTO       NUMBER(13,2)  ,                         
+ MONEDA          CHAR(3)       ,                         
+ CONCEPTO        CHAR(4)       ,                         
+ TIPO_TRABAJADOR CHAR(3)       ,                         
+ COD_ORIGEN      CHAR(2)       ) ;

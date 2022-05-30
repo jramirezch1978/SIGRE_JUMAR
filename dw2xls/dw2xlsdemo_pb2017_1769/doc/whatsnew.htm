@@ -1,0 +1,1169 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+
+<title>Dw2xls developer's reference</title>
+<link rel="STYLESHEET" href="style.css" type="text/css">
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<!-- Reference header -->
+<table width="100%" cellpadding=0 cellspacing=0>
+  <tr>
+    <td class=footer_text width=20%>&nbsp;</td>
+    <td class=doc_header align="center">Developer's reference</td>
+    <td width=20% align="right">
+      <a class=hidden_link href="http://desta.com.ua/dw2xls/"><img src=dw2xls_logo.jpg alt="DW2XLS for PowerBuilder" border=0></a></td>
+  </tr>
+</table>
+<hr>
+
+
+
+<table cellspacing=0 cellpadding=0 class=path_table> <tr><td><a class=hidden_link href=reference.htm>Reference</a> &gt; <a class=hidden_link href=whatsnew.htm>What's new</a></td></tr> </table>
+<table width=100%><tr><td class=light_line></td></tr></table><p class=head1>
+What's new
+</p>
+
+<!--begin release -->
+<p class=head2>Version 5.1.11 Release 30.04.2018</p>
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Improved temporary file logic
+</td></tr>
+<!--end item -->
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Alternative way to calculate autosize height (new parameter n_dwr_service_parm.ib_nonvisual_calc_height)
+</td></tr>
+<!--end item -->
+
+</table></div>
+</p>
+<!--end release -->
+
+<!--begin release -->
+<p class=head2>Version 5.1.10 Release 03.08.2017</p>
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Fixed problem with objects in foreground and background bands for Crosstab DWs
+</td></tr>
+<!--end item -->
+
+</table></div>
+</p>
+<!--end release -->
+
+<!--begin release -->
+<p class=head2>Version 5.1.9 Release 04.07.2017</p>
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Added workaround for dates before 1900-03-01 which are calculated in Excel in a different way in comparison to OpenOffice and LibreOffice (see new parameter n_dwr_service_parm.ib_fix_date_base)
+</td></tr>
+<!--end item -->
+
+</table></div>
+</p>
+<!--end release -->
+
+<!--begin release -->
+<p class=head2>Version 5.1.8 Release 13.10.2016</p>
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Allowed to switch ON/OFF dash borders for Grid DWs separately from document gridlines (see new parameter n_dwr_service_parm.ib_draw_dw_grid_lines)
+</td></tr>
+<!--end item -->
+
+</table></div>
+</p>
+<!--end release -->
+
+<!--begin release -->
+<p class=head2>Version 5.1.7 Release 13.09.2016</p>
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Supported pictures (for OOXML format only)
+</td></tr>
+<!--end item -->
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Fixed problem with Footer band appeared before Summary band
+</td></tr>
+<!--end item -->
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Fixed problem with DDDW when in some conditions Data Column was exported instead of Display Column
+</td></tr>
+<!--end item -->
+
+</table></div>
+</p>
+<!--end release -->
+
+<!--begin release -->
+<p class=head2>Version 5.1.6 Release 31.08.2016</p>
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Supported Suppress Repeating Values setting
+</td></tr>
+<!--end item -->
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Fixed n_dwr_service_parm.ib_hide_grid not working
+</td></tr>
+<!--end item -->
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Avoided "Mixing signed and unsigned" warnings on .NET
+</td></tr>
+<!--end item -->
+
+</table></div>
+</p>
+<!--end release -->
+
+
+<!--begin release -->
+<p class=head2>Version 5.1.5 Release 12.07.2016</p>
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Solved problem with LF, CR, TAB incorrectly escaped in OOXML format
+</td></tr>
+<!--end item -->
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Workaround for problem with nested reports on Appeon
+</td></tr>
+<!--end item -->
+
+</table></div>
+</p>
+<!--end release -->
+
+
+<!--begin release -->
+<p class=head2>Version 5.1.4 Release 07.06.2016</p>
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Special escape for control characters (supported in MS Excel OOXML format).
+</td></tr>
+<!--end item -->
+
+</table></div>
+</p>
+<!--end release -->
+
+
+<!--begin release -->
+<p class=head2>Version 5.1.3 Release 13.05.2016</p>
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Reduced memory usage.
+</td></tr>
+<!--end item -->
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Fixed crash on big amounts of data.
+</td></tr>
+<!--end item -->
+
+</table></div>
+</p>
+<!--end release -->
+
+<!--begin release -->
+<p class=head2>Version 5.1.2 Release 12.05.2016</p>
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Solved problem with memory usage.
+</td></tr>
+<!--end item -->
+
+</table></div>
+</p>
+<!--end release -->
+
+
+<!--begin release -->
+<p class=head2>Version 5.1.1 Release 22.01.2016</p>
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Improved export into XLSX (OOXML) format so that resulting file can be opened on iOS.
+</td></tr>
+<!--end item -->
+
+</table></div>
+</p>
+<!--end release -->
+
+<!--begin release -->
+<p class=head2>Version 5.1.0 Release 16.08.2015</p>
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Supported 64-bit applications.
+</td></tr>
+<!--end item -->
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Supported TreeView DW.
+</td></tr>
+<!--end item -->
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Supported Appeon and .NET WinForms deployments.
+</td></tr>
+<!--end item -->
+
+</table></div>
+</p>
+<!--end release -->
+
+<!--begin release -->
+<p class=head2>Version 4.1.5 Release 19.07.2012</p>
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Fixed problem with autoheight and different DataWindow Units.
+</td></tr>
+<!--end item -->
+
+</table></div>
+</p>
+<!--end release -->
+
+<!--begin release -->
+<p class=head2>Version 4.1.4 Release 02.07.2012</p>
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Fixed computing static X coordinates for slim objects (lines, rectangles)
+</td></tr>
+<!--end item -->
+
+</table></div>
+</p>
+<!--end release -->
+
+<!--begin release -->
+<p class=head2>Version 4.1.3 Release 30.06.2012</p>
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Optimized memory usage optimized for DWs without expressions in X and Width
+</td></tr>
+<!--end item -->
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+More responsive progress bar for large DWs
+</td></tr>
+<!--end item -->
+
+</table></div>
+</p>
+<!--end release -->
+
+<!--begin release -->
+<p class=head2>Version 4.1.2 Release 09.12.2010</p>
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Fixed some problems with autosize height property for columns.
+</td></tr>
+<!--end item -->
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Fixed problem that caused fields with value 0 to be empty in resulting xls-file.
+</td></tr>
+<!--end item -->
+
+</table></div>
+</p>
+<!--end release -->
+
+<!--begin release -->
+<p class=head2>Version 4.1.1 Release 03.11.2010</p>
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Solved problem with progress window blinking during export.
+</td></tr>
+<!--end item -->
+
+</table></div>
+</p>
+<!--end release -->
+
+
+<!--begin release -->
+<p class=head2>Version 4.1.0 Release 27.10.2010</p>
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Fixed problem with resulting XLS-file structure that caused impossibility to open it in OpenOffice 3.2.x.
+</td></tr>
+<!--end item -->
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Fixed problem with empty cells that were not evaluated in Excel as blank.
+</td></tr>
+<!--end item -->
+
+</table></div>
+</p>
+<!--end release -->
+
+<!--begin release -->
+<p class=head2>Version 4.0.9 Release 10.08.2010</p>
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Fixed problem with rectangles and autosize height property of detail band.
+</td></tr>
+<!--end item -->
+
+</table></div>
+</p>
+<!--end release -->
+
+<!--begin release -->
+<p class=head2>Version 4.0.8 Release 29.06.2010</p>
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Fixed problem with nested reports and groups.
+</td></tr>
+<!--end item -->
+
+</table></div>
+</p>
+<!--end release -->
+
+<!--begin release -->
+<p class=head2>Version 4.0.7 Release 15.04.2010</p>
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Added parameter ib_trim_overlapped for switching On/Off trimming of overlapping objects.
+</td></tr>
+<!--end item -->
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Added parameter ib_export_invisible for switching On/Off export of invisible objects.
+</td></tr>
+<!--end item -->
+
+</table></div>
+</p>
+<!--end release -->
+
+<!--begin release -->
+<p class=head2>Version 4.0.6 Release 24.02.2010</p>
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Fixed problem with right and bottom margins processing in dll.
+</td></tr>
+<!--end item -->
+
+</table></div>
+</p>
+<!--end release -->
+
+<!--begin release -->
+<p class=head2>Version 4.0.5 Release 05.02.2010</p>
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Fixed problem with cells format that caused number fields to have format 'Text' after export.
+</td></tr>
+<!--end item -->
+
+</table></div>
+</p>
+<!--end release -->
+
+
+<!--begin release -->
+<p class=head2>Version 4.0.4 Release 03.02.2010</p>
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Fixed problem with autosizeheight property when ib_enable_merge_cells = false.
+</td></tr>
+<!--end item -->
+
+</table></div>
+</p>
+<!--end release -->
+
+
+<!--begin release -->
+<p class=head2>Version 4.0.3 Release 25.12.2009</p>
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Added support for autosizeheight property of fields.
+</td></tr>
+<!--end item -->
+
+</table></div>
+</p>
+<!--end release -->
+
+<!--begin release -->
+<p class=head2>Version 4.0.2 Release 23.12.2009</p>
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Added parameter ib_font_height_expression to n_dwr_service_parm.
+  If FALSE then font height expressions will not be evaluated.
+</td></tr>
+<!--end item -->
+
+</table></div>
+</p>
+<!--end release -->
+
+<!--begin release -->
+<p class=head2>Version 4.0.1 Release 28.10.2009</p>
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Fixed problem that caused file locking after process cancel.
+</td></tr>
+<!--end item -->
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Fixed problem with double quotes in text fields.
+</td></tr>
+<!--end item -->
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Fixed problem that sometimes caused computed fields to be not exported.
+</td></tr>
+<!--end item -->
+
+
+</table></div>
+</p>
+<!--end release -->
+
+<!--begin release -->
+<p class=head2>Version 4.0 Release 01.03.2009</p>
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Added support for the new Excel file format, OOXML (XML based Excel 2007 format). 
+  Set parm.is_version = "OOXML".
+  Default is still 97.
+</td></tr>
+<!--end item -->
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Added support for rectangles and solid lines (only vertical and horizontal). 
+Set parm.ib_lines and parm.ib_rectangles.
+These objects are emulated using slim cells. 
+Note, that if a line or a rectangle is too close to another cell, then it may be displayed not properly in Excel.
+</td></tr>
+<!--end item -->
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Added support for band background color and color expressions.
+Set parm.ib_background_color
+</td></tr>
+<!--end item -->
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Added support for exporting more than one datawindow on a single sheet.
+See <a href="multidwexample.htm">multidwexample.htm</a>
+</td></tr>
+<!--end item -->
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Overlapping objects are trimmed so that they do not overlap
+</td></tr>
+<!--end item -->
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Grid column's header is not exported anymore if the column is hidden
+</td></tr>
+<!--end item -->
+
+</table></div>
+</p>
+<!--end release -->
+
+<!--begin release -->
+<p class=head2>Version 3.2.3 Release 26.06.2008</p>
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Fixed regression in 3.0.5 which caused creating of damaged XLS when some objects have negative coordinates
+</td></tr>
+<!--end item -->
+
+
+</table></div>
+</p>
+<!--end release -->
+
+<!--begin release -->
+<p class=head2>Version 3.2.2 Release 19.06.2008</p>
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Fixed regression in 3.2.1 with height.autosize in detail band
+</td></tr>
+<!--end item -->
+
+
+</table></div>
+</p>
+<!--end release -->
+
+
+<!--begin release -->
+<p class=head2>Version 3.2.1 Release 18.06.2008</p>
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Fixed exporting of objects outside band bounds
+</td></tr>
+<!--end item -->
+
+
+</table></div>
+</p>
+<!--end release -->
+
+
+<!--begin release -->
+<p class=head2>Version 3.2 Release 28.02.2008</p>
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+ Added support for legacy user code which used some PB2XLS functions removed in DW2XLS 3.1.
+</td></tr>
+<!--end item -->
+
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Added support for DataWindow.Print.Orientation
+</td></tr>
+<!--end item -->
+
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Added support for <column>.Font.Escapement
+</td></tr>
+<!--end item -->
+
+
+</table></div>
+</p>
+<!--end release -->
+
+
+<!--begin release -->
+<p class=head2>Version 3.1.8 Release 18.02.2008</p>
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Fixed multipart [currency] format processing
+</td></tr>
+<!--end item -->
+
+
+</table></div>
+</p>
+<!--end release -->
+
+<!--begin release -->
+<p class=head2>Version 3.1.7 Release 16.11.2007</p>
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+The XLS header feature is now renamed to the XLS title. 
+  All related parameters is_header_xxxxx were renamed as well to is_title_xxxxx.
+</td></tr>
+<!--end item -->
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Fixed converting from Windows time format to Excel time format (added 'tt' to 'AM/PM')
+</td></tr>
+<!--end item -->
+
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Fixed setting format for large string cells (>255 chars). Now it's forced to "General"
+</td></tr>
+<!--end item -->
+
+
+</table></div>
+</p>
+<!--end release -->
+
+
+<!--begin release -->
+<p class=head2>Version 3.1.6 Release 08.11.2007</p>
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Fixed check for Excel sheet limits: max. rows 65536, max. cols 256 
+</td></tr>
+<!--end item -->
+
+
+</table></div>
+</p>
+<!--end release -->
+
+
+<!--begin release -->
+<p class=head2>Version 3.1.5 Release 01.11.2007</p>
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Added support for XLS header text. See the is_header_xxxxx parameters in n_dwr_servce_parm 
+</td></tr>
+<!--end item -->
+
+
+</table></div>
+</p>
+<!--end release -->
+
+
+
+<!--begin release -->
+<p class=head2>Version 3.1.4 Release 17.07.2007</p>
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Fixed processing of detail autosizeheight + detail height = 0 
+</td></tr>
+<!--end item -->
+
+
+</table></div>
+</p>
+<!--end release -->
+
+
+
+
+
+<!--begin release -->
+<p class=head2>Version 3.1.3 Release 18.06.2007</p>
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Basic Treeview DW support: only leafs (without level bands)
+</td></tr>
+<!--end item -->
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Fixed regression in 3.1.X with conversion of ~r in strings
+</td></tr>
+<!--end item -->
+
+
+</table></div>
+</p>
+<!--end release -->
+
+
+
+
+<!--begin release -->
+<p class=head2>Version 3.1.2 Release 02.04.2007</p>
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+fixed storing wrong strings in XLS <font color=red>: critical bug in 3.1, upgrade is required</font>
+</td></tr>
+<!--end item -->
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+fixed incorrect FreeLibrary declaration causing the PB2XLS.DLL stay in memory 
+  until application exits
+</td></tr>
+<!--end item -->
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+fixed hide_grid option processing
+</td></tr>
+<!--end item -->
+
+</table></div>
+</p>
+<!--end release -->
+
+<!--begin release -->
+<p class=head2>Version 3.1 Release 27.03.2007</p>
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+removed support for Excel5, now only Excel97 is supported
+</td></tr>
+<!--end item -->
+<!--begin item -->
+<tr><td class=msa><li type=square>
+added support for font family and font charset properties
+</td></tr>
+<!--end item -->
+<!--begin item -->
+<tr><td class=msa><li type=square>
+considerably increased the performance, up to 400% for DWs without dynamic formatting properties
+</td></tr>
+<!--end item -->
+
+</table></div>
+</p>
+<!--end release -->
+
+
+<!--begin release -->
+<p class=head2>Version 3.0.5 Release 28.02.2007</p>
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+ Fixed processing of X > 2^16
+</td></tr>
+<!--end item -->
+
+</table></div>
+</p>
+<!--end release -->
+
+
+
+
+<!--begin release -->
+<p class=head2>Version 3.0.4 Release 23.02.2007</p>
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+ Bands with height=0 are not exported any more
+</td></tr>
+<!--end item -->
+
+</table></div>
+</p>
+<!--end release -->
+
+
+
+
+<!--begin release -->
+<p class=head2>Version 3.0.3 Release 19.02.2007</p>
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+
+<!--begin item -->
+<tr><td class=msa><li type=square>
+Fixed null object reference after cancelling the export
+</td></tr>
+<!--end item -->
+
+</table></div>
+</p>
+<!--end release -->
+
+
+
+
+
+<p class=head2>Version 3.0.2 Release 19.02.2007</p>
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+
+<tr><td class=msa><li type=square>
+Increased the default values for slim cell merging: id_min_width = 0.5, id_min_height = 4.0
+</td></tr>
+
+
+</table></div>
+</p>
+
+
+
+<p class=head2>Version 3.0.1 Release 13.02.2007</p>
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+
+<tr><td class=msa><li type=square>
+ Fixed empty computes in nested crosstabs
+</td></tr>
+
+<tr><td class=msa><li type=square>
+ Fixed OLE stream copy for large nested DW data
+</td></tr>
+
+
+</table></div>
+</p>
+
+
+
+
+<p class=head2>Version 3.0 Release 18.11.2006</p>
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+
+<tr><td class=msa><li type=square>
+Moved to C++ some code. As of DW2XLS 3.0 a DLL, PB2XLS.DLL,  is used as part of the library.
+It must be distributed with your application in order the export to work.
+</td></tr>
+
+<tr><td class=msa><li type=square>
+Removed the exponential dependence of export time 
+  depending on number of rows. Now it's a linear dependence.
+</td></tr>
+
+<tr><td class=msa><li type=square>
+More support for nested DWs and/or expressions for X,Y,W,H.
+  In the previous versions, some combinations of coordinates and expressions
+  could cause improper cell merging in XLS.
+</td></tr>
+
+<tr><td class=msa><li type=square>
+Excel columns that are tighter than the minimum column width are merged with the next column 
+  and rows that are shorter than the minumum row height are merged with the next row.
+  This is controlled by n_dwr_service_parm parameters, id_min_width and id_min_height.</td></tr>
+
+</table></div>
+</p>
+
+
+<p class=head2>Version 2.1.0 Release 22.06.2006</p>
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+<tr><td class=msa><li type=square>
+Fixed access to nested DW data in 2.0.7.
+</td></tr>
+<tr><td class=msa><li type=square>
+Removed the following restriction: Positioning of other nester DW or any other fields under nested DW is not allowed 
+</td></tr>
+<tr><td class=msa><li type=square>
+Progress bar is now updated in nested DWs 
+</td></tr>
+</table></div>
+
+</p>
+
+<p class=head2>Version 2.0.7 Release 22.05.2006</p>
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+<tr><td class=msa><li type=square>
+Fixed access to nested DW data
+</td></tr>
+<tr><td class=msa><li type=square>
+More support for DDDW in nested DW
+</td></tr>
+</table></div>
+
+</p>
+
+
+<p class=head2>Version 2.0.6 Release 18.01.2006</p>
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+<tr><td class=msa><li type=square>
+Speed optimization.
+</td></tr>
+</table></div>
+
+</p>
+
+
+<p class=head2>Version 2.0.5 Release 03.11.2005</p>
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+<tr><td class=msa><li type=square>
+Fixed expressions support in text objects.
+</td></tr>
+</table></div>
+
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+<tr><td class=msa><li type=square>
+Added support for regional date, time, currency formats.
+</td></tr>
+</table></div>
+
+</p>
+
+
+<p class=head2>Version 2.0.4 Release 13.07.2005</p>
+
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+<tr><td class=msa><li type=square>New option added:  ib_nested (default value is true).</td></tr>
+</table></div>
+
+</p>
+<p class=head2>Version 2.0.3 Release 29.06.2005</p>
+
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+<tr><td class=msa><li type=square>Fixed corruption of large Excel files.</td></tr>
+</table></div>
+
+</p>
+<p class=head2>Version 2.0.2 Release 29.05.2005</p>
+
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+<tr><td class=msa><li type=square>Fixed expressions support in text property of text objects.</td></tr>
+</table></div>
+
+</p>
+<p class=head2>Version 2.0.1 Release 27.05.2005</p>
+
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+<tr><td class=msa><li type=square>Fixed exporting of nested Crosstabs.</td></tr>
+</table></div>
+
+</p>
+<p class=head2>Version 2.0 Release 11.04.2005</p>
+
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+<tr><td class=msa><li type=square>Support for Composite type added.</td></tr>
+<tr><td class=msa><li type=square>Support added for nested dw for DW types: Composite, Free Form, Tabular.</td></tr>
+<tr><td class=msa><li type=square>Restriction:<br><font style="text-indent:'0';margin-left:'50';">Positioning of other nester DW or any other fields under nested DW is not allowed.</font><br><font style="text-indent:'0';margin-left:'50';">During processing of nested DW lines, the position of progressbar does not change.</font><br><font style="text-indent:'0';margin-left:'50';">Autosizeheight property for nested DW and for band containing them is ignored.</font></td></tr>
+</table></div>
+
+</p>
+<p class=head2>Version 1.4.0 Release 15.09.2004</p>
+
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+<tr><td class=msa><li type=square>Added the conversion of datawindows (datastores) to separate sheets of Excel Workbook. For detail information, see object "<a class=hidden_link href=n_dwr_service_excel.htm>n_dwr_service_excel</a>".</td></tr>
+<tr><td class=msa><li type=square>Added the conversion of datastores into Excel file. (See functions <a class=hidden_link href=uf_save_ds_as_excel.htm>uf_save_ds_as_excel</a> and <a class=hidden_link href=uf_save_ds_as_excel_parm.htm>uf_save_ds_as_excel_parm</a>). Great thanks to Roland Berns for his assistance. The right of unlimited support and product upgrades for DW2XLS library is awarded to him.</td></tr>
+<tr><td class=msa><li type=square>New option added:  ib_group_pagebreak (default value is false). </td></tr>
+<tr><td class=msa><li type=square>New option added:  ib_group_pageheader (default value is true). </td></tr>
+<tr><td class=msa><li type=square>Save to Excel file more than 8126 unique text string bug fixed (Thanks to Mario Tzakov, Chris Fauvel).</td></tr>
+<tr><td class=msa><li type=square>Extraction of the time of value datetime bug fixed (Thanks to Matthieu WENTZINGER).</td></tr>
+</table></div>
+
+</p>
+<p class=head2>Version 1.3.4 Release 11.05.2004</p>
+
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+<tr><td class=msa><li type=square>Conditional formating for all font properties(Thanks to Ronald Berns).</td></tr>
+<tr><td class=msa><li type=square>Default worksheet name bug fixed.</td></tr>
+<tr><td class=msa><li type=square>New option added:  is_sheet_name (default value is 'Sheet1').</td></tr>
+<tr><td class=msa><li type=square>"New Page on Group Break" property processing added(Thanks to Alok Mehta).</td></tr>
+</table></div>
+
+</p>
+<p class=head2>Version 1.3.3 Release 15.04.2004</p>
+
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+<tr><td class=msa><li type=square>Empty details in a grid datawindow with autoheight detail band bug fixed(Thanks to Chris Fauvel, Luis Pesaressi)</td></tr>
+</table></div>
+
+</p>
+<p class=head2>Version 1.3.2 Release 05.04.2004</p>
+
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+<tr><td class=msa><li type=square>A lot of empty columns in Excel file bug fixed (Thanks to Jacob Grobman).</td></tr>
+<tr><td class=msa><li type=square>Last symbol missing in each function of pbl module bug fixed.</td></tr>
+<tr><td class=msa><li type=square>Header band missing in crosstab datawindow bug fixed (Thanks to Mario Tzakov, Allan Rath).</td></tr>
+<tr><td class=msa><li type=square>Format list overflow in excel file bug fixed (Thanks to Juan Carlos Hurtado Salcedo).</td></tr>
+</table></div>
+
+</p>
+<p class=head2>Version 1.3.1 Release 22.03.2004</p>
+
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+<tr><td class=msa><li type=square>A lot of empty rows in Excel file bug fixed (Grid presentation style, autoheight detail band) (Thanks to Jacob Grobman).</td></tr>
+<tr><td class=msa><li type=square>Long text as '####...' bug fixed </td></tr>
+</table></div>
+
+</p>
+<p class=head2>Version 1.3 Release 15.02.2004</p>
+
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+<tr><td class=msa><li type=square>Support Excel97 file format</td></tr>
+<tr><td class=msa><li type=square>New option added:  ib_hide_grid</td></tr>
+<tr><td class=msa><li type=square>New option added:  is_version</td></tr>
+<tr><td class=msa><li type=square>Support reports with N-UP presentation style</td></tr>
+</table></div>
+
+</p>
+<p class=head2>Version 1.2 Release 13.01.2004</p>
+
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+<tr><td class=msa><li type=square>Convert date in Any variable to datetime bug fixed (Thanks to Philip Salgannik)</td></tr>
+<tr><td class=msa><li type=square>Support date/datetime format like "[shortdate]", "[time]" etc.</td></tr>
+</table></div>
+
+</p>
+<p class=head2>Version 1.1 Release 24.11.2003</p>
+
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+<tr><td class=msa><li type=square>Last group trailer duplication bug fixed (Thanks to Robert Scott Harrison, Esq.) </td></tr>
+<tr><td class=msa><li type=square>Empty detail rows bug fixed (Thanks to Rashid A. Basu)</td></tr>
+<tr><td class=msa><li type=square>Developer's <a class=hidden_link href=reference.htm>reference</a> updated</td></tr>
+</table></div>
+
+</p>
+<p class=head2>Version 1.0 Release 31.10.2003</p>
+
+<p class=methodlist>
+<div class=padding_txt><table border="0" bordercolor="#c0c0c0" cellspacing="0" cellpadding="0">
+<tr><td class=msa><li type=square>Support color expression </td></tr>
+<tr><td class=msa><li type=square>Support background color expression</td></tr>
+<tr><td class=msa><li type=square>Getvalue bug fixed</td></tr>
+</table></div>
+
+</p>
+
+<table border=0 width="100%" cellpadding=0 cellspacing=0>
+  <tr><td colspan=2 class=empty_line></td></tr>
+  <tr><td colspan=2 class=line></td></tr>
+  <tr>
+    <td class=footer_text align="left">&copy; 2003-2017 <a class=hidden_link href="http://desta.com.ua/">Desta, Ltd.</a> All rights reserved.</td>
+    <td class=footer_text align="right">
+      <a class=hidden_link href="mailto:dw2xls_support@Desta.com.ua">SupportDesk</a></td>
+  </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+
+<title>Dw2xls developer's reference</title>
+<link rel="STYLESHEET" href="style.css" type="text/css">
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<!-- Reference header -->
+<table width="100%" cellpadding=0 cellspacing=0>
+  <tr>
+    <td class=footer_text width=20%>&nbsp;</td>
+    <td class=doc_header align="center">Developer's reference</td>
+    <td width=20% align="right">
+      <a class=hidden_link href="http://desta.com.ua/dw2xls/"><img src=dw2xls_logo.jpg alt="DW2XLS for PowerBuilder" border=0></a></td>
+  </tr>
+</table>
+<hr>
+
+
+
+<table cellspacing=0 cellpadding=0 class=path_table> <tr><td><a class=hidden_link href=reference.htm>Reference</a> &gt; <a class=hidden_link href=n_dwr_service_excel.htm>n_dwr_service_excel</a> &gt; <a class=hidden_link href=of_save_dw2sheet.htm>of_save_dw2sheet</a></td></tr> </table>
+<table width=100%><tr><td class=light_line></td></tr></table><p class=head1>
+Exporting more than one datawindow on a single sheet
+</p>
+<p class=head2>
+Example
+</p>
+<pre>
+integer li_ret = 1
+n_dwr_service_parm lnvo_parm
+n_dwr_service_excel lnvo_excel
+
+dw_1.dataobject = 'd_test'
+dw_1.SetTransObject(sqlca)
+dw_1.retrieve()
+
+lnvo_excel = create n_dwr_service_excel 
+lnvo_parm = create n_dwr_service_parm
+
+if lnvo_excel.of_create_wb('C:\MY_BOOK.XLS', lnvo_parm) = 1 then
+
+    lnvo_parm.is_sheet_name = 'Example 1'
+    lnvo_excel.of_create_multidw_sheet(lnvo_parm)
+
+    // save DW to upper left corner of sheet
+    lnvo_excel.of_save_dw2cursheet(dw_1)
+    
+    // add a horizontal spacer on the right (in units from the previous DW)
+    lnvo_excel.of_add_multidw_hspacer(500)
+    
+    // save next DW on the right
+    lnvo_excel.of_save_dw2cursheet(dw_1)
+
+    // force next DW to be exported below leftmost
+    lnvo_excel.of_end_multidw_line()
+    
+    // add a vertical spacer below
+    lnvo_excel.of_add_multidw_vspacer(500)
+    
+    // save next DW below
+    lnvo_excel.of_save_dw2cursheet(dw_1)
+
+    // force next DW to be exported below leftmost (optional at the end)
+    lnvo_excel.of_end_multidw_line()
+    
+    // store the sheet to workbook
+    lnvo_excel.of_store_multidw_sheet()
+    
+    // close the workbook
+    lnvo_excel.of_close_wb()
+end if
+
+</pre>
+
+<table border=0 width="100%" cellpadding=0 cellspacing=0>
+  <tr><td colspan=2 class=empty_line></td></tr>
+  <tr><td colspan=2 class=line></td></tr>
+  <tr>
+    <td class=footer_text align="left">&copy; 2003-2013 <a class=hidden_link href="http://desta.com.ua/">Desta, Ltd.</a> All rights reserved.</td>
+    <td class=footer_text align="right">
+      <a class=hidden_link href="mailto:dw2xls_support@Desta.com.ua">SupportDesk</a></td>
+  </tr>
+</table>
+</body>
+</html>

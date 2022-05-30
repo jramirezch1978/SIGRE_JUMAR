@@ -1,0 +1,100 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+
+<title>Dw2xls developer's reference</title>
+<link rel="STYLESHEET" href="style.css" type="text/css">
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<!-- Reference header -->
+<table width="100%" cellpadding=0 cellspacing=0>
+  <tr>
+    <td class=footer_text width=20%>&nbsp;</td>
+    <td class=doc_header align="center">Developer's reference</td>
+    <td width=20% align="right">
+      <a class=hidden_link href="http://desta.com.ua/dw2xls/"><img src=dw2xls_logo.jpg alt="DW2XLS for PowerBuilder" border=0></a></td>
+  </tr>
+</table>
+<hr>
+
+
+
+<table cellspacing=0 cellpadding=0 class=path_table> <tr><td><a class=hidden_link href=reference.htm>Reference</a> &gt; <a class=hidden_link href=uf_save_dw_as_excel_parm.htm>uf_save_dw_as_excel_parm</a></td></tr> </table>
+<table width=100%><tr><td class=light_line></td></tr></table><p class=head1>
+uf_save_dw_as_excel_parm() function
+</p>
+<p class=txt>
+Converts datawindow into excel file. Allows to specify some options for process of converting.
+</p>
+<p class=head2>Syntax</p>
+<div class=padding_txt>
+<table cellpadding=7><tr class=grey_box><td class=txt>
+<i>uf_save_dw_as_excel_parm ( dw, filename, parm )</i>
+</td></tr></table></div>
+<p class=head2>Parameters</p>
+<div class=padding_txt>
+<table cellpadding=3>
+<tr class=grey_box><td class=txt><i>dw</i></td><td class=txt>A <a class=hidden_link href=reference.htm>reference</a> to the datawindow object</td></tr>
+<tr class=grey_box><td class=txt><i>filename</i></td><td class=txt>A string whose value is the name of the file you want to create. If  filename is not on the operating system's search path, you must enter the fully qualified name   </td></tr>
+<tr class=grey_box><td class=txt><i>parm</i></td><td class=txt>A <a class=hidden_link href=reference.htm>reference</a> to the <a class=hidden_link href=n_dwr_service_parm.htm>n_dwr_service_parm</a> object which contain a set of parameters for process of converting</td></tr>
+</table></div>
+<p class=head2>
+Return value
+</p>
+<div class=padding_txt> <p class=txt>
+Integer. Returns 1 if it succeeds and -1 if an error occurs.</p></div>
+<p class=head2>
+Examples
+</p>
+<pre>
+//export using parameters
+integer li_ret
+<a class=hidden_link href=n_dwr_service_parm.htm>n_dwr_service_parm</a> lnvo_parm
+lnvo_parm = create <a class=hidden_link href=n_dwr_service_parm.htm>n_dwr_service_parm</a>
+lnvo_parm.ib_header = false         //skip header band 
+lnvo_parm.ib_summary = false        //skip summary band 
+lnvo_parm.ib_footer = false         //skip footer band 
+lnvo_parm.ib_group_header = false   //skip all group headers 
+lnvo_parm.ib_group_trailer = false  //skip all group trailers 
+
+li_ret = <a class=hidden_link href=uf_save_dw_as_excel_parm.htm>uf_save_dw_as_excel_parm</a>(dw_1, 'c:\doc\report.xls', lnvo_parm)
+if li_ret = 1 then
+   //success
+   //...
+else
+   //fail
+   //...
+end if</pre>
+
+<pre>
+// adding a header to generated XLS
+integer li_ret
+<a class=hidden_link href=n_dwr_service_parm.htm>n_dwr_service_parm</a> lnvo_parm
+lnvo_parm = create <a class=hidden_link href=n_dwr_service_parm.htm>n_dwr_service_parm</a>
+lnvo_parm.is_header_text = "Report"
+lnvo_parm.ib_header_font_underline = True
+
+li_ret = <a class=hidden_link href=uf_save_dw_as_excel_parm.htm>uf_save_dw_as_excel_parm</a>(dw_1, 'c:\doc\report.xls', lnvo_parm)
+if li_ret = 1 then
+   //success
+   //...
+else
+   //fail
+   //...
+end if</pre>
+
+
+<table border=0 width="100%" cellpadding=0 cellspacing=0>
+  <tr><td colspan=2 class=empty_line></td></tr>
+  <tr><td colspan=2 class=line></td></tr>
+  <tr>
+    <td class=footer_text align="left">&copy; 2003-2013 <a class=hidden_link href="http://desta.com.ua/">Desta, Ltd.</a> All rights reserved.</td>
+    <td class=footer_text align="right">
+      <a class=hidden_link href="mailto:dw2xls_support@Desta.com.ua">SupportDesk</a></td>
+  </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,33 @@
+Save Format v3.0(19990112)
+@begin Unchecked
+@end;
+@begin Targets
+ 0 "Activo_Fijo\\activo.pbt";
+ 10 "Compras\\compras.pbt";
+ 20 "Produccion\\produccion.pbt";
+ 1 "Almacen\\almacen.pbt";
+ 11 "Contabilidad\\contabilidad.pbt";
+ 21 "Rrhh\\rrhh.pbt";
+ 2 "Aprovision\\aprovision.pbt";
+ 12 "controldoc\\controldoc.pbt";
+ 22 "Seguridad\\seguridad.pbt";
+ 3 "asistencia\\asistencia.pbt";
+ 13 "finanzas\\finanzas.pbt";
+ 23 "fuentes_nps\\nps_erp.pbt";
+ 4 "Auditoria\\auditoria.pbt";
+ 14 "Flota\\flota.pbt";
+ 24 "sig\\sig.pbt";
+ 5 "Basc\\basc.pbt";
+ 15 "Horeca\\horeca.pbt";
+ 25 "CashLoan\\cashloan.pbt";
+ 6 "campo\\campo.pbt";
+ 16 "Integrador\\integrador.pbt";
+ 7 "change_pw\\change_pw.pbt";
+ 17 "Mantenimiento\\mantenimiento.pbt";
+ 8 "Comercializacion\\comercializacion.pbt";
+ 18 "Operaciones_ot\\operaciones_ot.pbt";
+ 9 "Comedor\\comedor.pbt";
+ 19 "Presupuesto\\presupuesto.pbt";
+@end;
+DefaultTarget "finanzas\\finanzas.pbt";
+DefaultRemoteTarget "finanzas\\finanzas.pbt";

@@ -1,0 +1,97 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+
+<title>Dw2xls developer's reference</title>
+<link rel="STYLESHEET" href="style.css" type="text/css">
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<!-- Reference header -->
+<table width="100%" cellpadding=0 cellspacing=0>
+  <tr>
+    <td class=footer_text width=20%>&nbsp;</td>
+    <td class=doc_header align="center">Developer's reference</td>
+    <td width=20% align="right">
+      <a class=hidden_link href="http://desta.com.ua/dw2xls/"><img src=dw2xls_logo.jpg alt="DW2XLS for PowerBuilder" border=0></a></td>
+  </tr>
+</table>
+<hr>
+
+
+
+<table cellspacing=0 cellpadding=0 class=path_table> <tr><td><a class=hidden_link href=reference.htm>Reference</a> &gt; <a class=hidden_link href=n_dwr_service_parm.htm>n_dwr_service_parm</a></td></tr> </table>
+<table width=100%><tr><td class=light_line></td></tr></table><p class=head1>
+n_dwr_service_parm object
+</p>
+<p class=txt>
+Object which contain a set of parameters for process of converting.<br>
+The following properties are available:
+</p>
+<p class=head2>Properties</p>
+<div class=padding_txt>
+<table cellpadding=3>
+<tr class=grey_box><td class=txt><i>ib_header</i></td><td class=txt>A boolean value which controls whether the header band converting will be allowed. Default is true.</td></tr>
+<tr class=grey_box><td class=txt><i>ib_foreground</i></td><td class=txt>A boolean value which controls whether the foreground band converting will be allowed. Default is true.</td></tr>
+<tr class=grey_box><td class=txt><i>ib_background</i></td><td class=txt>A boolean value which controls whether the background band converting will be allowed. Default is true.</td></tr>
+<tr class=grey_box><td class=txt><i>ib_detail</i></td><td class=txt>A boolean value which controls whether the detail band converting will be allowed. Default is true.</td></tr>
+<tr class=grey_box><td class=txt><i>ib_summary</i></td><td class=txt>A boolean value which controls whether the summary band converting will be allowed. Default is true.</td></tr>
+<tr class=grey_box><td class=txt><i>ib_footer</i></td><td class=txt>A boolean value which controls whether the footer band converting will be allowed. Default is true.</td></tr>
+<tr class=grey_box><td class=txt><i>ib_group_header</i></td><td class=txt>A boolean value which controls whether the group headers converting will be allowed. Default is true.</td></tr>
+<tr class=grey_box><td class=txt><i>ib_group_trailer</i></td><td class=txt>A boolean value which controls whether the group trailers converting will be allowed. Default is true.</td></tr>
+<tr class=grey_box><td class=txt><i>ib_keep_band_height</i></td><td class=txt>A boolean value which controls whether should be kept the height of all bands. Default is false.</td></tr>
+<tr class=grey_box><td class=txt><i>ib_enable_merge_cells</i></td><td class=txt>A boolean value which controls whether or not the cells can be merged. Default is true.</td></tr>
+<tr class=grey_box><td class=txt><i>ib_show_progress</i></td><td class=txt>A boolean value which determines whether or not the progress bar should be displayed. Default is true.</td></tr>
+<tr class=grey_box><td class=txt><i>ib_hide_grid</i></td><td class=txt>A boolean value which controls whether grid lines are hided or not. Default is false.</td></tr>
+<tr class=grey_box><td class=txt><i>is_version</i></td><td class=txt>A string which value is an Excel version. Available values are: '97', 'OOXML'. Default is '97' </td></tr>
+<tr class=grey_box><td class=txt><i>is_sheet_name</i></td><td class=txt>A string which value is a Worksheet name. Default is 'Sheet1'.</td></tr>
+<tr class=grey_box><td class=txt><i>ib_group_pagebreak</i></td><td class=txt>A boolean value which controls whether the pagebreak will be added into Excel file for each group break if the option "New Page on Group Break" is set. Default is false.</td></tr>
+<tr class=grey_box><td class=txt><i>ib_group_pageheader</i></td><td class=txt>A boolean value which controls whether the band "header" will be added for each page if the options "New Page on Group Break" is set. Default is true.</td></tr>
+<tr class=grey_box><td class=txt><i>ib_nested</i></td><td class=txt>A boolean value which controls whether Nested DW will be converted or not. Default is true.</td></tr>
+<tr class=grey_box><td class=txt><i>id_min_width</i></td><td class=txt>A double value which controls the minimum width of columns in Excel units.</td></tr>
+<tr class=grey_box><td class=txt><i>id_min_height</i></td><td class=txt>A double value which controls the minimum height of rows in Excel units.</td></tr>
+<tr class=grey_box><td class=txt><i>ib_background_color</i></td><td class=txt>A boolean value which controls whether band background colors are exported. Default is false.</td></tr>
+<tr class=grey_box><td class=txt><i>ib_lines</i></td><td class=txt>Export lines(not inclined). Default is false.</td></tr>
+<tr class=grey_box><td class=txt><i>ib_rectangles</i></td><td class=txt>Export rectangles. Default is false.</td></tr>
+<tr class=grey_box><td class=txt><i>ib_trim_overlapped</i></td><td class=txt>Switch On/Off trimming of overlapping objects. Default is true.</td></tr>
+<tr class=grey_box><td class=txt><i>ib_export_invisible</i></td><td class=txt>Switch On/Off export of invisible objects. Default is false</td></tr>
+<tr class=grey_box><td class=txt><i>ib_always_export_grid_header</i></td><td class=txt>If false, then objects in header will not be exported if they are positioned behind max detail column X-coordinate. Default is true</td></tr>
+<tr class=grey_box><td class=txt><i>ib_font_height_expression</i></td><td class=txt>Switch On/Off font height expression calculation. Default is true.</td></tr>
+<tr class=grey_box><td class=txt><i>ib_grid_columns_by_rowheight</i></td><td class=txt>If true, then for Grid DWs columns will have height = RowHeight(). Default is true.</td></tr>
+
+<tr class=grey_box><td class=txt colspan=2>XLS header related parameters</td></tr>
+<tr class=grey_box><td class=txt><i>is_header_text</i></td><td class=txt>
+ A string value. The text to be added in top of XLS.
+ If is_header_text = "" then the rest of header parameters are ignored 
+ and the header is not generated. 
+</td></tr>
+<tr class=grey_box><td class=txt><i>is_header_font</i></td><td class=txt>A string value. The font name. Default: Arial.</td></tr>
+<tr class=grey_box><td class=txt><i>il_header_font_family</i></td><td class=txt>A long value. The font family. 0 - AnyFont, 1 - Roman, 2 - Swiss, 3 - Modern, 4 - Script, 5 - Decorative. Default: 0.</td></tr>
+<tr class=grey_box><td class=txt><i>il_header_font_charset</i></td><td class=txt>A long value. The font charset. 0 - Ansi, 1 - default, 2 - Symbol, 128 - Shift JIS, 255 - OEM. Default: 0. </td></tr>
+<tr class=grey_box><td class=txt><i>il_header_fg_color</i></td><td class=txt>A long value. The foreground color. Use RGB(). Default: Black</td></tr>
+<tr class=grey_box><td class=txt><i>il_header_bg_color</i></td><td class=txt>A long value. The background color. Use RGB(). Default: White</td></tr>
+<tr class=grey_box><td class=txt><i>is_header_text_align</i></td><td class=txt>A string value. The alignment of the text inside the header cell ("center"|"left"|"right"). Default: center.</td></tr>
+<tr class=grey_box><td class=txt><i>is_header_align</i></td><td class=txt>A string value. The alignment of the header cell inside the page ("center"|"left"|"right"). Default: left.</td></tr>
+<tr class=grey_box><td class=txt><i>il_header_font_size</i></td><td class=txt>A long value. The font size. Default: 10.</td></tr>
+<tr class=grey_box><td class=txt><i>ib_header_font_bold</i></td><td class=txt>A boolean value. The font is bold. Default: True</td></tr>
+<tr class=grey_box><td class=txt><i>ib_header_font_underline</i></td><td class=txt>A boolean value. The font is underlined. Default: False.</td></tr>
+<tr class=grey_box><td class=txt><i>ib_header_font_italic</i></td><td class=txt>A boolean value. The font is italic.  Default: False.</td></tr>
+<tr class=grey_box><td class=txt><i>il_header_height</i></td><td class=txt>A long value. The height of header cell (DW units).Default: 100.</td></tr>
+<tr class=grey_box><td class=txt><i>il_header_width</i></td><td class=txt>A long value. The width of header cell (DW units).Default: 2800.</td></tr>
+<tr class=grey_box><td class=txt><i>il_header_separator_height</i></td><td class=txt>A long value. The height of empty row separating the header from the rest of data. Default: 0.</td></tr>
+
+</table></div>
+
+<table border=0 width="100%" cellpadding=0 cellspacing=0>
+  <tr><td colspan=2 class=empty_line></td></tr>
+  <tr><td colspan=2 class=line></td></tr>
+  <tr>
+    <td class=footer_text align="left">&copy; 2003-2010 <a class=hidden_link href="http://desta.com.ua/">Desta, Ltd.</a> All rights reserved.</td>
+    <td class=footer_text align="right">
+      <a class=hidden_link href="mailto:dw2xls_support@Desta.com.ua">SupportDesk</a></td>
+  </tr>
+</table>
+</body>
+</html>
