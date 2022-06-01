@@ -1,0 +1,249 @@
+BODY {
+	FONT-SIZE: x-small; COLOR: #444444; FONT-FAMILY: Arial,Helvetica,sans-serif
+}
+P {
+	FONT-SIZE: x-small; COLOR: #444444; FONT-FAMILY: Arial,Helvetica,sans-serif
+}
+TD {
+	FONT-SIZE: x-small; COLOR: #444444; FONT-FAMILY: Arial,Helvetica,sans-serif
+}
+TABLE {
+	FONT-SIZE: x-small; COLOR: #444444; FONT-FAMILY: Arial,Helvetica,sans-serif
+}
+A {
+	COLOR: #444444; TEXT-DECORATION: underline
+}
+TD {
+	FONT-SIZE: 11px
+}
+A:visited {
+	COLOR: #444444; TEXT-DECORATION: underline
+}
+A:hover {
+	COLOR: #444444; TEXT-DECORATION: none
+}
+.grayTextBold {
+	FONT-WEIGHT: normal; FONT-SIZE: 13px; COLOR: #999999; TEXT-DECORATION: none
+}
+.drkgrayTextBold {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #666666; TEXT-DECORATION: none
+}
+A.topHeader {
+	COLOR: #5a5a5a; TEXT-DECORATION: none
+}
+A.topHeader:visited {
+	COLOR: #5a5a5a; TEXT-DECORATION: none
+}
+A.topHeader:hover {
+	COLOR: #5a5a5a; TEXT-DECORATION: underline
+}
+A.grayText {
+	FONT-SIZE: xx-small; COLOR: #2a2a2a; TEXT-DECORATION: underline
+}
+A.grayText:visited {
+	FONT-SIZE: xx-small; COLOR: #2a2a2a; TEXT-DECORATION: underline
+}
+A.grayText:hover {
+	FONT-SIZE: xx-small; COLOR: #2a2a2a; TEXT-DECORATION: none
+}
+A.subHeadA {
+	FONT-SIZE: xx-small; COLOR: #828181; TEXT-DECORATION: underline
+}
+A.subHeadA:visited {
+	FONT-SIZE: xx-small; COLOR: #828181; TEXT-DECORATION: none
+}
+A.subHeadA:hover {
+	FONT-SIZE: xx-small; COLOR: #828181; TEXT-DECORATION: underline
+}
+A.AtdNAV {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.AtdNAV:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.AtdNAV:hover {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.promoBlock {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.promoBlock:visited {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.promoBlock:hover {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.footer {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.footer:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.footer:hover {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+.topHeader {
+	FONT-SIZE: 10px; COLOR: #999999; FONT-FAMILY: Arial,Helvetica,sans-serif
+}
+.subHeader {
+	BORDER-BOTTOM: #eeeded 1px solid
+}
+.callNo {
+	FONT-SIZE: 12px; COLOR: #000000
+}
+.promoTextBig {
+	FONT-SIZE: medium; COLOR: #ffffff
+}
+.promoTextSmall {
+	FONT-SIZE: xx-small; COLOR: #ffffff
+}
+.promoBGGray {
+	BACKGROUND-COLOR: #5a5a5a
+}
+.tdNAV {
+	FONT-SIZE: 11px; COLOR: #ffffff; BACKGROUND-COLOR: #828181
+}
+.tdNAVHeader {
+	PADDING-BOTTOM: 6px; PADDING-TOP: 6px; BACKGROUND-COLOR: #828181
+}
+.tdNAVhead {
+	FONT-WEIGHT: bold; FONT-SIZE: xx-small; PADDING-BOTTOM: 6px; COLOR: #ffffff; PADDING-TOP: 6px; BACKGROUND-COLOR: #828181
+}
+.tdNAVms {
+	PADDING-LEFT: 6px; FONT-SIZE: 12px; PADDING-BOTTOM: 6px; COLOR: #ffffff; PADDING-TOP: 6px; BACKGROUND-COLOR: #828181; TEXT-ALIGN: center
+}
+.inputBoxSmall {
+	FONT-SIZE: xx-small
+}
+.inputBoxCart {
+	BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 1px solid; FONT-SIZE: 10px; BORDER-LEFT: #999999 1px solid; BORDER-BOTTOM: #999999 1px solid; BACKGROUND-COLOR: #fcf2df
+}
+.inputBoxTSR {
+	BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 1px solid; FONT-SIZE: 10px; BORDER-LEFT: #999999 1px solid; BORDER-BOTTOM: #999999 1px solid; BACKGROUND-COLOR: #cccccc
+}
+.inputBoxSmallTcode {
+	BORDER-RIGHT: #666666 1px solid; BORDER-TOP: #666666 1px solid; FONT-SIZE: xx-small; BORDER-LEFT: #666666 1px solid; COLOR: #000000; BORDER-BOTTOM: #666666 1px solid
+}
+.shipsIn {
+	FONT-SIZE: xx-small; COLOR: #828181
+}
+.ltgreyPromoSmall {
+	FONT-SIZE: 11px; COLOR: #999999
+}
+.greyPromoSmall {
+	FONT-SIZE: 11px; COLOR: #666666
+}
+.greyPromo11 {
+	FONT-SIZE: 11px; COLOR: #333333
+}
+.redText {
+	FONT-SIZE: 11px; COLOR: #cc0000
+}
+.redTextsmall {
+	FONT-SIZE: 10px; COLOR: #cc0000
+}
+.bundledItem {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #999999
+}
+.specialOffer {
+	FONT-SIZE: small; COLOR: #828181
+}
+.tabOff {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; FONT-SIZE: x-small; BORDER-LEFT: #cccccc 1px solid; CURSOR: hand; COLOR: #666666; BORDER-BOTTOM: medium none; BACKGROUND-COLOR: #ededed
+}
+.bulletGtBlack {
+	LIST-STYLE-IMAGE: url(/toshiba/images/bullet_gtblack.gif); MARGIN-LEFT: 16px; PADDING-TOP: 0px
+}
+.bulletGtGray {
+	MARGIN-TOP: 0px; LIST-STYLE-POSITION: outside; LIST-STYLE-IMAGE: url(/images/ui/bullet_gtgray.gif); MARGIN-BOTTOM: 0px; MARGIN-LEFT: 16px; PADDING-TOP: 0px
+}
+.bulletSquare {
+	MARGIN-TOP: 0px; LIST-STYLE-POSITION: outside; LIST-STYLE-IMAGE: url(/images/ui/bullet_square.gif); MARGIN-LEFT: 16px; PADDING-TOP: 0px
+}
+.bulletSquareSmall {
+	MARGIN-TOP: 0px; LIST-STYLE-POSITION: outside; FONT-SIZE: 10px; LIST-STYLE-IMAGE: url(/images/ui/bullet_square.gif); MARGIN-LEFT: 16px; PADDING-TOP: 0px
+}
+.textOnGray {
+	FONT-SIZE: xx-small; COLOR: #666666
+}
+.mainWhite {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 5px; BACKGROUND-COLOR: #ffffff
+}
+.mainGray {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 5px; BACKGROUND-COLOR: #dedede
+}
+.mainGray2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; BACKGROUND-COLOR: #dedede
+}
+.footer {
+	FONT-SIZE: xx-small; COLOR: #ffffff; BACKGROUND-COLOR: #000000
+}
+#communityName {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffffff; PADDING-TOP: 10px
+}
+.communityHomeLink {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffffff; PADDING-TOP: 10px; TEXT-DECORATION: none
+}
+A.communityHomeLink:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffffff; PADDING-TOP: 10px; TEXT-DECORATION: none
+}
+A.communityHomeLink:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffffff; PADDING-TOP: 10px; TEXT-DECORATION: none
+}
+A.communityHomeLink:active {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffffff; PADDING-TOP: 10px; TEXT-DECORATION: none
+}
+A.communityHomeLink:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffffff; PADDING-TOP: 10px; TEXT-DECORATION: underline
+}
+.modelStatement {
+	FONT-SIZE: xx-small
+}
+#tdNAVsubtext {
+	FONT-SIZE: xx-small; COLOR: #cccccc; BACKGROUND-COLOR: #828181
+}
+#tdNAVheader {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; PADDING-BOTTOM: 6px; VERTICAL-ALIGN: top; COLOR: #ffffff; PADDING-TOP: 6px; BACKGROUND-COLOR: #828181
+}
+.subHead {
+	FONT-SIZE: 16px; COLOR: #666666
+}
+.cartCell {
+	BORDER-RIGHT: #cccccc 1px solid; PADDING-RIGHT: 8px; PADDING-LEFT: 8px; FONT-SIZE: 11px; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; BORDER-BOTTOM: #cccccc 1px solid
+}
+.chooseTitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR: #999999
+}
+.slashed {
+	COLOR: #999999; TEXT-DECORATION: line-through
+}
+.fixed {
+	OVERFLOW: hidden
+}
+.darkGreyBG {
+	COLOR: #ffffff; BACKGROUND-COLOR: #666666
+}
+.redBG {
+	COLOR: #ffffff; BACKGROUND-COLOR: #ed1b24
+}
+.paleBG {
+	BACKGROUND-COLOR: #fbf2e0
+}
+.tsrColor {
+	COLOR: #006600
+}
+.tsrBGColor {
+	COLOR: #ffffff; BACKGROUND-COLOR: #006600
+}
+.segHHO {
+	COLOR: #90a50c
+}
+.segSMB {
+	COLOR: #669a98
+}
+.segENT {
+	COLOR: #c37e00
+}
+.segPS {
+	COLOR: #662462
+}

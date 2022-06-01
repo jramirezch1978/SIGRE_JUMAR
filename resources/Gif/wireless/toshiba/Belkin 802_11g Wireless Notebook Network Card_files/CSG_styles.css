@@ -1,0 +1,30 @@
+.subOn {
+	FONT-SIZE: xx-small; COLOR: #669a98; TEXT-DECORATION: underline
+}
+.communityColor {
+	COLOR: black
+}
+.communityBgColor {
+	BACKGROUND-COLOR: black
+}
+.productTitle {
+	FONT-WEIGHT: bold; FONT-SIZE: medium; COLOR: #669a98
+}
+.price {
+	FONT-SIZE: small; COLOR: #669a98
+}
+.tabOn {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; FONT-SIZE: x-small; BORDER-LEFT: #cccccc 1px solid; COLOR: white; BORDER-BOTTOM: medium none; BACKGROUND-COLOR: #669a98
+}
+.subTitle {
+	FONT-SIZE: small; COLOR: #669a98
+}
+.promoBG {
+	BACKGROUND-COLOR: #c37e00
+}
+.seriesLine {
+	BORDER-RIGHT: #cccccc 1px solid
+}
+.descTxt {
+	FONT-SIZE: xx-small; COLOR: #000000
+}
